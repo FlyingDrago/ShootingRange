@@ -24,10 +24,10 @@ public class RotateByMouse : MonoBehaviour
     {
         UpdateYaw();
         UpdatePitch();
-        float mousex=Input.GetAxis("Mouse X");
-        float mousey=Input.GetAxis("Mouse Y");
-        float yaw=mousex*anglePerSecond*Time.deltaTime;
-        transform.Rotate(0,yaw,0);
+        //float mousex=Input.GetAxis("Mouse X");
+        //float mousey=Input.GetAxis("Mouse Y");
+        //float yaw=mousex*anglePerSecond*Time.deltaTime;
+        //transform.Rotate(0,yaw,0);
     }
     private void UpdateYaw()
     {
